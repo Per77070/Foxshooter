@@ -15,6 +15,9 @@
 		CB067AEA21E8C29F00AC74A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB067AE821E8C29F00AC74A2 /* Main.storyboard */; };
 		CB067AEC21E8C2A300AC74A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB067AEB21E8C2A300AC74A2 /* Assets.xcassets */; };
 		CB067AEF21E8C2A300AC74A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB067AED21E8C2A300AC74A2 /* LaunchScreen.storyboard */; };
+		CB18D37F221760FC003C7297 /* 111047__cyberkineticfilms__gunshot-2-laser.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB18D37E221760FC003C7297 /* 111047__cyberkineticfilms__gunshot-2-laser.wav */; };
+		CB1F155C221ECAA4005106A9 /* 362423__alphatrooper18__explosion1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB1F155B221ECAA4005106A9 /* 362423__alphatrooper18__explosion1.wav */; };
+		CB5A5F8F21EF71FE004E2D06 /* fox.atlas in Resources */ = {isa = PBXBuildFile; fileRef = CB5A5F8E21EF71FE004E2D06 /* fox.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CB067AEB21E8C2A300AC74A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB067AEE21E8C2A300AC74A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB067AF021E8C2A300AC74A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB18D37E221760FC003C7297 /* 111047__cyberkineticfilms__gunshot-2-laser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "111047__cyberkineticfilms__gunshot-2-laser.wav"; sourceTree = "<group>"; };
+		CB1F155B221ECAA4005106A9 /* 362423__alphatrooper18__explosion1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 362423__alphatrooper18__explosion1.wav; sourceTree = "<group>"; };
+		CB5A5F8E21EF71FE004E2D06 /* fox.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = fox.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 			children = (
 				CB067ADD21E8C29F00AC74A2 /* Foxshooter */,
 				CB067ADC21E8C29F00AC74A2 /* Products */,
+				CB5A5F8E21EF71FE004E2D06 /* fox.atlas */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +75,9 @@
 				CB067AE821E8C29F00AC74A2 /* Main.storyboard */,
 				CB067AEB21E8C2A300AC74A2 /* Assets.xcassets */,
 				CB067AED21E8C2A300AC74A2 /* LaunchScreen.storyboard */,
+				CB18D37E221760FC003C7297 /* 111047__cyberkineticfilms__gunshot-2-laser.wav */,
 				CB067AF021E8C2A300AC74A2 /* Info.plist */,
+				CB1F155B221ECAA4005106A9 /* 362423__alphatrooper18__explosion1.wav */,
 			);
 			path = Foxshooter;
 			sourceTree = "<group>";
@@ -99,6 +108,9 @@
 		CB067AD321E8C29F00AC74A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					foxRun,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Per Gustafsson";
@@ -134,7 +146,10 @@
 				CB067AEA21E8C29F00AC74A2 /* Main.storyboard in Resources */,
 				CB067AE121E8C29F00AC74A2 /* GameScene.sks in Resources */,
 				CB067AEC21E8C2A300AC74A2 /* Assets.xcassets in Resources */,
+				CB5A5F8F21EF71FE004E2D06 /* fox.atlas in Resources */,
+				CB18D37F221760FC003C7297 /* 111047__cyberkineticfilms__gunshot-2-laser.wav in Resources */,
 				CB067AEF21E8C2A300AC74A2 /* LaunchScreen.storyboard in Resources */,
+				CB1F155C221ECAA4005106A9 /* 362423__alphatrooper18__explosion1.wav in Resources */,
 				CB067AE321E8C29F00AC74A2 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
